@@ -1,0 +1,39 @@
+body {
+  background-color: cornflowerblue;
+}
+
+.eight-ball {
+  margin-bottom: 20px;
+  width: 100%
+}
+
+.img-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin-bottom: 20px;
+}
+
+.answer-text {
+  position: absolute;
+    top: 272px;
+    left: 272px;
+    color: white;
+    width: 9%;
+    display: none;
+}
+
+.question-text {
+  height: 56px;
+  background: black;
+  color: lightgrey;
+  border-radius: 10px;
+}
+
+#shake {
+  height: 56px;
+  border-radius: 10px;
+  width: 100%;
+}
